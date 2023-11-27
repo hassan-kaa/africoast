@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -16,42 +17,42 @@ function Footer() {
           type="text"
           placeholder="ادخل عنوانك الالكتروني..."
         />
-        <img
-          width="32"
-          height="32"
+        <Image
+          width={32}
+          height={32}
           src="https://img.icons8.com/ios/50/000000/long-arrow-left.png"
           alt="long-arrow-left"
         />
       </div>
       <div className="flex w-4/5 items-center justify-between">
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white p-2">
-          <img
-            width="50"
-            height="50"
+          <Image
+            width={50}
+            height={50}
             src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"
             alt="facebook-new"
           />
         </div>
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white p-2">
-          <img
-            width="50"
-            height="50"
+          <Image
+            width={50}
+            height={50}
             src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"
             alt="instagram-new--v1"
           />
         </div>
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white p-2">
-          <img
-            width="50"
-            height="50"
+          <Image
+            width={50}
+            height={50}
             src="https://img.icons8.com/ios-filled/50/000000/whatsapp--v1.png"
             alt="whatsapp--v1"
           />
         </div>
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white p-2">
-          <img
-            width="50"
-            height="50"
+          <Image
+            width={50}
+            height={50}
             src="https://img.icons8.com/ios-filled/50/000000/gmail.png"
             alt="gmail"
           />

@@ -3,10 +3,10 @@ import React from "react";
 
 function BestSellerCard() {
   return (
-    <div className="flex w-full flex-col items-center gap-4 overflow-hidden rounded-xl bg-slate-100 p-4">
+    <div className="mb-4 flex w-full min-w-[320px] flex-col items-center gap-4 overflow-hidden rounded-xl  bg-slate-100 p-4 ">
       <div className="relative aspect-square w-full p-4">
         <Image
-          src={"/product.png"}
+          src={"https://d2h6dxozyuyc92.cloudfront.net/product.png"}
           alt="best-seller"
           fill={true}
           className="absolute object-cover"

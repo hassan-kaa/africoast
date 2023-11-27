@@ -15,7 +15,7 @@ function NavItemCard({ bgGradient }: appProps) {
       <div className="absolute flex h-full w-full flex-row-reverse">
         <div className=" relative  h-full w-1/2 ">
           <Image
-            src={"/kitchen.jpg"}
+            src={"https://d2h6dxozyuyc92.cloudfront.net/kitchen.jpg"}
             alt="kitchen"
             fill={true}
             className=" absolute object-cover"

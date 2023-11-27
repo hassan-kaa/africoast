@@ -40,7 +40,7 @@ function Carousel({ children }: { children: React.ReactNode }) {
         id="container"
         ref={containerRef}
         onMouseDown={mouseDownHandler}
-        className="scrollbar-thin scrollbar-track-slate-200 scrollbar-thumb-blue-900 flex gap-6 overflow-y-hidden"
+        className="flex gap-6 overflow-y-hidden scrollbar-thin scrollbar-track-slate-200 scrollbar-thumb-blue-900"
       >
         {children}
       </div>

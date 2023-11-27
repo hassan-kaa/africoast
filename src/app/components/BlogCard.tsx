@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-function CarouselCard() {
+function BlogCard() {
   return (
     <div className="flex min-w-[320px] flex-col gap-2">
       <div className="relative aspect-square w-full rounded-lg">
         <Image
-          src={"/hero.jpg"}
+          src={"https://d2h6dxozyuyc92.cloudfront.net/hero.jpg"}
           alt="image"
           fill={true}
           className="absolute rounded-lg object-cover"
@@ -26,4 +26,4 @@ function CarouselCard() {
   );
 }
 
-export default CarouselCard;
+export default BlogCard;
